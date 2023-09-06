@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\RiderProjects\\Estudos\\Estudos\\Estudos.csproj": {}
+    "C:\\Users\\USUARIO\\Desktop\\Estudos\\Estudos\\Estudos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\RiderProjects\\Estudos\\Estudos\\Estudos.csproj": {
+    "C:\\Users\\USUARIO\\Desktop\\Estudos\\Estudos\\Estudos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\RiderProjects\\Estudos\\Estudos\\Estudos.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Estudos\\Estudos\\Estudos.csproj",
         "projectName": "Estudos",
-        "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\Estudos\\Estudos\\Estudos.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Desktop\\Estudos\\Estudos\\Estudos.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\RiderProjects\\Estudos\\Estudos\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Desktop\\Estudos\\Estudos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

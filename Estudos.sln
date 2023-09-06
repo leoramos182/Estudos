@@ -1,12 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudos", "Estudos\Estudos.csproj", "{7E9D6C67-CC60-4882-B64E-46E6754E49E1}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C8932456-4F46-4A09-9A31-E79FFA931E4A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4C7D830C-EFD3-45A7-859D-C879E1A7BA72}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{35FF85A7-38BA-448A-81F3-5CF5FEB937B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudos", "Estudos\Estudos.csproj", "{B7B66CF5-A899-46B0-B01B-B3515510B112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E9D6C67-CC60-4882-B64E-46E6754E49E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E9D6C67-CC60-4882-B64E-46E6754E49E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E9D6C67-CC60-4882-B64E-46E6754E49E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E9D6C67-CC60-4882-B64E-46E6754E49E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B66CF5-A899-46B0-B01B-B3515510B112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B66CF5-A899-46B0-B01B-B3515510B112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B66CF5-A899-46B0-B01B-B3515510B112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B66CF5-A899-46B0-B01B-B3515510B112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
