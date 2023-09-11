@@ -6,13 +6,46 @@
     <projectFile profileName="https">Estudos/Estudos.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71955bc-d596-4699-8ea5-4c050fada895" name="Changes" comment="" />
+    <list default="true" id="d71955bc-d596-4699-8ea5-4c050fada895" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Estudos.Domain/Contracts/Repository/IPlayerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudos.Domain/Entities/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudos.Infra/DataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudos.Infra/DesignFactoryContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudos.Infra/Extensions/MapExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudos.Infra/Map/PlayerMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Estudos.Infra/Repository/PlayerRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Estudos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Estudos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/Estudos.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/Estudos.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/Debug/net7.0/Estudos.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/Debug/net7.0/Estudos.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/Debug/net7.0/Estudos.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/Debug/net7.0/Estudos.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/Debug/net7.0/Estudos.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/Debug/net7.0/Estudos.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/Debug/net7.0/Estudos.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/Debug/net7.0/Estudos.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/Estudos.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/Estudos.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/Estudos.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/Estudos.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/Estudos.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/Estudos.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estudos/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Estudos/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2048d5b61a78bef52894eecf448e34a883cb22e1abb6711e0eb6d690a3b0/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4a4e32cea57c17f7bee73f3df362944a221b8f84d193ae366a93bb192bbd/MvcServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2V1Zjlu8JOsZXpZugXMeGuXUv4E" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +55,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -81,13 +115,27 @@
       <option name="presentableId" value="Default" />
       <updated>1694005687325</updated>
       <workItem from="1694005698588" duration="17000" />
+      <workItem from="1694005770276" duration="6303000" />
+      <workItem from="1694093384486" duration="8530000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
